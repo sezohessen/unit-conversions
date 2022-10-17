@@ -1,9 +1,12 @@
 <?php
+
 namespace sezohessen\conversions\Tests;
+
 use PHPUnit\Framework\TestCase;
 use sezohessen\conversions\Weight;
 
-class WeightTest extends TestCase  {
+class WeightTest extends TestCase
+{
     /** @test **/
     public function it_can_convert_kilograms_to_lbs()
     {
