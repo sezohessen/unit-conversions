@@ -11,6 +11,6 @@ class WeightTest extends TestCase
     public function it_can_convert_kilograms_to_lbs()
     {
         $lbs = Weight::fromKilo(100)->toLbs();
-        $this->assertEquals(220.46226199999998,$lbs);
+        $this->assertEquals(220.46226199999998, $lbs);
     }
 }
